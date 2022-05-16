@@ -1,0 +1,49 @@
+@media only screen and (max-width: 600px) {
+    video {
+        max-width: 25vh;
+        max-height: 50vh;
+    }
+
+    .container-fluid {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    video {
+        max-width: 25vh;
+        max-height: 50vh;
+    }
+
+    .container-fluid {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    video {
+        max-width: 100vh;
+        max-height: 100vh;
+    }
+
+    .container-fluid {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    video {
+        max-width: 100vh;
+        max-height: 100vh;
+    }
+
+    .container-fluid {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+}
+
+
