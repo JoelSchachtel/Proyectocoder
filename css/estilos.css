@@ -58,7 +58,7 @@ h1.heading {
       object-fit: cover;
       transition: all .25s ease; }
       .card .img-card img:hover {
-        transform: scale(1.2); }
+        transform: scale(1.03); }
   .card .card-content {
     padding: 15px;
     text-align: left; }
@@ -163,7 +163,7 @@ section div img {
 
 .bg-image {
   background-image: url("https://pbs.twimg.com/media/FS1bNEuXEAAmdH8?format=jpg&name=large");
-  border-radius: 10%;
+  border-radius: 2%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
