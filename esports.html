@@ -1,216 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <!-- Agregar lineas meta!!!!!!!!!!!!!!!!!! -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/estilos.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <head>
+  <meta charset="UTF-8" >
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <meta name="description" content="Mira en tiempo real nuestros rosters de E-sports" >
+  <meta name="keywords" content="9z, la violeta, csgo, league of legends, Frankkaster, Luken, Dav1d, max, zakk, rox, noticias, blog" >
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" >
+  <link rel="stylesheet" href="css/estilos.css" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <meta name="author" content="Joel Schachtel" >
+  <meta name="copyright" content="9z Team" >
   <title>9z Team - La violeta a todos lados.</title>
-</head>
+ </head>
 
+ <!-- Nav-bar -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-color p-3">
+  <div class="container-fluid">
+   <a class="navbar-brand" href="#">#9zTeam</a>
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+   </button>
 
-  <!-- Nav-bar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-color p-3">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">#9zTeam</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class=" collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ms-auto ">
-          <li class="nav-item">
-            <a class="nav-link mx-2 active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link mx-2" href="productos.html">Productos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link mx-2" href="esports.html">E-sports</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Nosotros
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="blog.html">Blog</a></li>
-              <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- header team -->
-  <header class="bg-primary text-center card py-5 mb-4">
-    <div class="container">
-      <h1 class="fw-bold text-white">CSGO Team</h1>
-    </div>
-  </header>
-  <!-- end header team -->
-  <!-- Team main -->
-  <div class="container">
-    <div class="row">
-      <!-- Team Member 1 -->
-      <div class="col-xl-4 col-md-6 mb-4">
-        <div class="card border-0 shadow">
-          <img src="https://img-cdn.hltv.org/playerbodyshot/N44KtSguvatSlA7yJCw1b3.png?ixlib=java-2.1.0&w=400&s=4a9ae61ef881637cfca688dfb69b1651" class="card-img-top" alt="...">
-          <div class="card-body card text-center">
-            <h5 class="card-title mb-0 lavioleta">Max</h5>
-            <div class="card-text text-white-50">In-game leader</div>
-          </div>
-        </div>
-      </div>
-      <!-- Team Member 2 -->
-      <div class="col-xl-4 col-md-6 mb-4">
-        <div class="card border-0 shadow">
-          <img src="https://img-cdn.hltv.org/playerbodyshot/JkVhOh48tRTgN6W5A1-bHM.png?ixlib=java-2.1.0&w=400&s=1cc60072f41f94d2e94bbb646dded8c4" class="card-img-top" alt="...">
-          <div class="card-body card text-center">
-            <h5 class="card-title mb-0 lavioleta">dgt</h5>
-            <div class="card-text text-white-50">Lurker</div>
-          </div>
-        </div>
-      </div>
-      <!-- Team Member 3 -->
-      <div class="col-xl-4 col-md-6 mb-4">
-        <div class="card border-0 shadow">
-          <img src="https://img-cdn.hltv.org/playerbodyshot/9SQEouJaO9QXN6brYLXjq-.png?ixlib=java-2.1.0&w=400&s=63dc900c6e769ef4f171e9c843c51aa6" class="card-img-top" alt="...">
-          <div class="card-body card text-center">
-            <h5 class="card-title mb-0 lavioleta">Rox</h5>
-            <div class="card-text text-white-50">Rifler</div>
-          </div>
-        </div>
-      </div>
-      <!-- Team Member 4 -->
-      <div class="col-xl-4 col-md-6 mb-4">
-        <div class="card border-0 shadow">
-          <img src="https://img-cdn.hltv.org/playerbodyshot/MxmyvLqn6rI9MdrQwv4CWx.png?ixlib=java-2.1.0&w=400&s=43f5915e51cf61c190cd0c58812b1606" class="card-img-top" alt="...">
-          <div class="card-body card text-center">
-            <h5 class="card-title mb-0 lavioleta">Luken</h5>
-            <div class="card-text text-white-50">Awper</div>
-          </div>
-        </div>
-      </div>
-      <!-- Team member 5 -->
-      <div class="col-xl-4 col-md-6 mb-4">
-        <div class="card border-0 shadow">
-          <img src="https://img-cdn.hltv.org/playerbodyshot/E-v7HFBo_9_53Xntbj6wL-.png?ixlib=java-2.1.0&w=400&s=f15f2ae1420f08184ff5d03118990ba0" class="card-img-top" alt="...">
-          <div class="card-body card text-center">
-            <h5 class="card-title mb-0 lavioleta">Dav1d</h5>
-            <div class="card-text text-white-50">Entry fragger</div>
-          </div>
-        </div>
-      </div>
-      <!-- Team member 6 -->
-      <div class="col-xl-4 col-md-6 mb-4">
-        <div class="card border-0 shadow">
-          <img src="https://img-cdn.hltv.org/playerbodyshot/2sMoYcox7d5eEGlvLiASDQ.png?ixlib=java-2.1.0&w=400&s=65546a46df00136b282aff50220d5874" class="card-img-top" alt="...">
-          <div class="card-body card text-center">
-            <h5 class="card-title mb-0 lavioleta">Zakk</h5>
-            <div class="card-text text-white-50">Coach</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /.row -->
+   <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ms-auto">
+     <li class="nav-item">
+      <a class="nav-link mx-2 active" aria-current="page" href="index.html">Home</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link mx-2" href="productos.html">Productos</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link mx-2" href="esports.html">E-sports</a>
+     </li>
+     <li class="nav-item dropdown">
+      <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+       Nosotros
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+       <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+       <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
+      </ul>
+     </li>
+    </ul>
+   </div>
   </div>
-      
+ </nav>
 
-  <!-- Footer -->
-  <footer class="bg-color text-white pb-4">
-
-    <div class="container-fluid text-md-left">
-
-      <div class="row text-md-left">
-
-        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h5 class="text-uppercase mb-4 font-weight-bold lavioleta">#9zTeam</h5>
-          <p>9z Team es una organización de esports de primera categoría fundada el 8 de agosto de 2018 por Francisco
-            'Frankkaster' Postiglione, uno de los más renombrados creadores de contenidos del país.</p>
-        </div>
-
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-          <h5 class="text-uppercase mb-4 font-weight-bold lavioleta">Navegación</h5>
-          <p>
-            <a href="#" class="text-white text-hover-violeta" style="text-decoration: none;"> Home</a>
-          </p>
-          <p>
-            <a href="#" class="text-white text-hover-violeta" style="text-decoration: none;"> Productos</a>
-          </p>
-          <p>
-            <a href="#" class="text-white text-hover-violeta" style="text-decoration: none;"> E-sports</a>
-          </p>
-          <p>
-            <a href="#" class="text-white text-hover-violeta" style="text-decoration: none;"> Blog</a>
-          </p>
-
-        </div>
-
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-          <h5 class="text-uppercase mb-4 font-weight-bold lavioleta">Main Sponsors</h5>
-          <p>
-            <a href="#" class="text-white text-hover-violeta" style="text-decoration: none;"> Intel</a>
-          </p>
-          <p>
-            <a href="#" class="text-white text-hover-violeta" style="text-decoration: none;"> $Lemon</a>
-          </p>
-          <p>
-            <a href="#" class="text-white text-hover-violeta" style="text-decoration: none;">RedBull</a>
-          </p>
-          <p>
-            <a href="#" class="text-white text-hover-violeta" style="text-decoration: none;"> Logitech</a>
-          </p>
-        </div>
-
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h5 class="text-uppercase mb-4 font-weight-bold lavioleta">Contacto</h5>
-          <p>
-            <i class="fas fa-home mr-3"></i>CABA, BS.AS, Argentina.
-          </p>
-          <p>
-            <i class="fas fa-envelope mr-3"></i>Contacto@9zteam.com
-          </p>
-          <p>
-            <i class="fas fa-phone mr-3"></i>+54 0303456
-          </p>
-          <p>
-            <i class="fas fa-print	 mr-3"></i>+54 7878 78910
-          </p>
-        </div>
-
-      </div>
-
-      <hr class="mb-4 lavioleta">
-
-      <div class="row align-items-center">
-
-        <div class="col-md-4 col-lg-3 mx-auto">
-          <p> Copyright ©2018 All rights reserved by:
-            <a href="#" style="text-decoration: none;">
-              <strong class="lavioleta">9z Team</strong>
-            </a></p>
-
-        </div>
-      </div>
+ <!-- header team -->
+ <header class="bg-primary text-center card py-5 mb-4">
+  <div class="container">
+   <h1 class="fw-bold text-white">CSGO Team</h1>
+  </div>
+ </header>
+ <!-- end header team -->
+ <!-- Team main -->
+ <div class="container">
+  <div class="row">
+   <!-- Team Member 1 -->
+   <div class="col-xl-4 col-md-6 mb-4">
+    <div class="card border-0 shadow">
+     <img src="https://img-cdn.hltv.org/playerbodyshot/N44KtSguvatSlA7yJCw1b3.png?ixlib=java-2.1.0&w=400&s=4a9ae61ef881637cfca688dfb69b1651" class="card-img-top" alt="Foto de Max" >
+     <div class="card-body card text-center">
+      <h5 class="card-title mb-0 lavioleta">Max</h5>
+      <div class="card-text text-white-50">In-game leader</div>
+     </div>
     </div>
+   </div>
+   <!-- Team Member 2 -->
+   <div class="col-xl-4 col-md-6 mb-4">
+    <div class="card border-0 shadow">
+     <img src="https://img-cdn.hltv.org/playerbodyshot/JkVhOh48tRTgN6W5A1-bHM.png?ixlib=java-2.1.0&w=400&s=1cc60072f41f94d2e94bbb646dded8c4" class="card-img-top" alt="Foto de dgt" >
+     <div class="card-body card text-center">
+      <h5 class="card-title mb-0 lavioleta">dgt</h5>
+      <div class="card-text text-white-50">Lurker</div>
+     </div>
     </div>
+   </div>
+   <!-- Team Member 3 -->
+   <div class="col-xl-4 col-md-6 mb-4">
+    <div class="card border-0 shadow">
+     <img src="https://img-cdn.hltv.org/playerbodyshot/9SQEouJaO9QXN6brYLXjq-.png?ixlib=java-2.1.0&w=400&s=63dc900c6e769ef4f171e9c843c51aa6" class="card-img-top" alt="Foto de Rox" >
+     <div class="card-body card text-center">
+      <h5 class="card-title mb-0 lavioleta">Rox</h5>
+      <div class="card-text text-white-50">Rifler</div>
+     </div>
+    </div>
+   </div>
+   <!-- Team Member 4 -->
+   <div class="col-xl-4 col-md-6 mb-4">
+    <div class="card border-0 shadow">
+     <img src="https://img-cdn.hltv.org/playerbodyshot/MxmyvLqn6rI9MdrQwv4CWx.png?ixlib=java-2.1.0&w=400&s=43f5915e51cf61c190cd0c58812b1606" class="card-img-top" alt="Foto de Luken" >
+     <div class="card-body card text-center">
+      <h5 class="card-title mb-0 lavioleta">Luken</h5>
+      <div class="card-text text-white-50">Awper</div>
+     </div>
+    </div>
+   </div>
+   <!-- Team member 5 -->
+   <div class="col-xl-4 col-md-6 mb-4">
+    <div class="card border-0 shadow">
+     <img src="https://img-cdn.hltv.org/playerbodyshot/E-v7HFBo_9_53Xntbj6wL-.png?ixlib=java-2.1.0&w=400&s=f15f2ae1420f08184ff5d03118990ba0" class="card-img-top" alt="Foto de Dav1d" >
+     <div class="card-body card text-center">
+      <h5 class="card-title mb-0 lavioleta">Dav1d</h5>
+      <div class="card-text text-white-50">Entry fragger</div>
+     </div>
+    </div>
+   </div>
+   <!-- Team member 6 -->
+   <div class="col-xl-4 col-md-6 mb-4">
+    <div class="card border-0 shadow">
+     <img src="https://img-cdn.hltv.org/playerbodyshot/2sMoYcox7d5eEGlvLiASDQ.png?ixlib=java-2.1.0&w=400&s=65546a46df00136b282aff50220d5874" class="card-img-top" alt="Foto de Zakk" >
+     <div class="card-body card text-center">
+      <h5 class="card-title mb-0 lavioleta">Zakk</h5>
+      <div class="card-text text-white-50">Coach</div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- /.row -->
+ </div>
+
+ <!-- Footer -->
+ <footer class="bg-color text-white pb-4">
+  <div class="container-fluid text-md-left">
+   <div class="row text-md-left">
+    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+     <h5 class="text-uppercase mb-4 font-weight-bold lavioleta">#9zTeam</h5>
+     <p>9z Team es una organización de esports de primera categoría fundada el 8 de agosto de 2018 por Francisco 'Frankkaster' Postiglione, uno de los más renombrados creadores de contenidos del país.</p>
     </div>
 
-  </footer>
+    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+     <h5 class="text-uppercase mb-4 font-weight-bold lavioleta">Navegación</h5>
+     <p>
+      <a href="index.html" class="text-white text-hover-violeta" style="text-decoration: none;"> Home</a>
+     </p>
+     <p>
+      <a href="productos.html" class="text-white text-hover-violeta" style="text-decoration: none;"> Productos</a>
+     </p>
+     <p>
+      <a href="esports.html" class="text-white text-hover-violeta" style="text-decoration: none;"> E-sports</a>
+     </p>
+     <p>
+      <a href="blog.html" class="text-white text-hover-violeta" style="text-decoration: none;"> Blog</a>
+     </p>
+    </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
-  </script>
-</body>
+    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+     <h5 class="text-uppercase mb-4 font-weight-bold lavioleta">Main Sponsors</h5>
+     <p>
+      <a href="https://www.intel.la/content/www/xl/es/homepage.html" class="text-white text-hover-violeta" style="text-decoration: none;" target="_blank"> Intel</a>
+     </p>
+     <p>
+      <a href="https://www.sumatealemon.com/9z/" class="text-white text-hover-violeta" style="text-decoration: none;" target="_blank"> $Lemon</a>
+     </p>
+     <p>
+      <a href="https://www.redbull.com/ar-es/" class="text-white text-hover-violeta" style="text-decoration: none;" target="_blank">RedBull</a>
+     </p>
+     <p>
+      <a href="https://www.logitech.com/es-mx" class="text-white text-hover-violeta" style="text-decoration: none;" target="_blank"> Logitech</a>
+     </p>
+    </div>
 
+    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+     <h5 class="text-uppercase mb-4 font-weight-bold lavioleta">Contacto</h5>
+     <p><i class="fas fa-home mr-3"></i>CABA, BS.AS, Argentina.</p>
+     <p><i class="fas fa-envelope mr-3"></i>Contacto@9zteam.com</p>
+     <p><i class="fas fa-phone mr-3"></i>+54 0303456</p>
+     <p><i class="fas fa-print mr-3"></i>+54 7878 78910</p>
+    </div>
+   </div>
+
+   <hr class="mb-4 lavioleta" >
+
+   <div class="row align-items-center">
+    <div class="col-md-4 col-lg-3 mx-auto">
+     <p>
+      Copyright ©2018 All rights reserved by:
+      <a href="#" style="text-decoration: none;">
+       <strong class="lavioleta">9z Team</strong>
+      </a>
+     </p>
+    </div>
+   </div>
+  </div>
+ </footer>
+
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </html>
